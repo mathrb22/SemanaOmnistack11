@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './Header';
 
 //Quando o HTML estiver dentro de uma função JavaScript, ele é chamado de JSX:
@@ -6,14 +6,19 @@ import Header from './Header';
 //Componente básico:
 function App() {
 
-  let counter = 0; //variável do tipo LET (para poder ser alterada), ao invés de uma CONST
+  //[counter,] terá o valor da posição [0]
+  //[, setCounter] -> função responsável por alterar o valor de counter
+  const [counter, setCounter] = useState(0); //variável do tipo LET (para poder ser alterada), ao invés de uma CONST
+  //o método useState() retorna um array com 2 posições:
+  //  [valor, funcaoDeAtualizacaoDesseValorOriginal] 
 
   function increment(){
-    counter += 1;
-    console.log(counter);
+    setCounter(counter + 1);
     //nesse caso, apenas aparecerá o resultado no console, o elemento da interface não será alterado, pois não estamos usando um ESTADO
   }
-  
+
+  //Estado em React: toda vez que o estado é alterado, será remontado (renderizado novamente) o componente, exibindo as novas informações em tela;
+    
   return (
     <div>
     <Header>Contador: {counter}</Header> 
