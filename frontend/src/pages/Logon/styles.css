@@ -1,3 +1,13 @@
-h1 {
-    color: #7159c1;
+.logon-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh; /*para que ocupe a largura toda do corpo*/
+    margin: 0 auto; 
+    
+    display: flex; /* PADRÃO: itens um do lado do outro*/
+    align-items: center; /* alinhar os itens VERTICALMENTE AO CENTRO */
+    justify-content: center; /* alinhar os itens HORIZONTALMENTE AO CENTRO */
+
+
+
 }
