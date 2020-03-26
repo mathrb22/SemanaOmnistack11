@@ -8,6 +8,8 @@ import './styles.css'; //usando o './' para referenciar um arquivo na mesma past
 //Para utilizar imagens e svg, iremos importá-las também:
 import logoImg from '../../assets/logo.svg';
 import heroesImg from '../../assets/heroes.png';
+
+//não utilizar class na propriedade pois clas é uma palavra reservada do JavaScript
 export default function Logon(){
     return(
         <div className="logon-container">
@@ -17,10 +19,10 @@ export default function Logon(){
 
                     <h1>Faça seu Logon</h1>
                     <input placeholder="Sua ID"/>
-                    <button type="submit">Entrar</button>
+                    <button className="button" type="submit">Entrar</button>
 
                     <a href="/register">
-                        <FiLogIn size={16} color="#E02041" /> 
+                        <FiLogIn size={22} color="#E02041" /> 
                         Não tenho cadastro
                     </a>
                 </form>

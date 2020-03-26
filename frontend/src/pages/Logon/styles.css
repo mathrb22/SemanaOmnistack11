@@ -7,7 +7,40 @@
     display: flex; /* PADRÃO: itens um do lado do outro*/
     align-items: center; /* alinhar os itens VERTICALMENTE AO CENTRO */
     justify-content: center; /* alinhar os itens HORIZONTALMENTE AO CENTRO */
+}
 
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 60px;
+}
 
+.logon-container section.form form {
+    margin-top: 100px;
+}
 
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.logon-container section.form form a svg {
+    margin-right: 8px;
+}
+
+.logon-container section.form form a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500; 
+    transition: opacity 0.2s;
+    transition: text-decoration 0.2s;
+}
+
+.logon-container section.form form a:hover {
+    opacity: 0.86;
+    text-decoration: underline; 
 }
