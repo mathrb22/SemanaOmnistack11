@@ -60,6 +60,7 @@
     background: #fff;
     padding: 24px;
     border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
 
 }
@@ -74,6 +75,8 @@
 }
 
 .profile-container ul li button {
+    height: 25px;
+    width: 25px;
     position: absolute;
     right: 24px;
     background: transparent;

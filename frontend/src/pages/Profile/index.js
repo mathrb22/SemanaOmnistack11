@@ -11,7 +11,7 @@ export default function Profile(){
                 <img src={logoImg} alt="Be The Hero"/>
                 <span>Bem vinda, APAD</span>
 
-                <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
+                <Link className="button" to="/incidents/new"> Cadastrar novo caso</Link>
                 <button type="button">
                     <FiLogOut size={24} color="#e02041"></FiLogOut>
                 </button>
@@ -31,7 +31,7 @@ export default function Profile(){
                     <p>R$ 120,00</p>
 
                     <button type="button">
-                        <FiTrash2 size="25"/>
+                        <FiTrash2 size="28"/>
                     </button>
 
                 </li>
@@ -46,7 +46,7 @@ export default function Profile(){
                     <p>R$ 120,00</p>
 
                     <button type="button">
-                        <FiTrash2 size="25"/>
+                        <FiTrash2 size="28"/>
                     </button>
 
                 </li>
@@ -61,7 +61,7 @@ export default function Profile(){
                     <p>R$ 120,00</p>
 
                     <button type="button">
-                        <FiTrash2 size="25"/>
+                        <FiTrash2 size="28"/>
                     </button>
 
                 </li>
@@ -76,7 +76,7 @@ export default function Profile(){
                     <p>R$ 120,00</p>
 
                     <button type="button">
-                        <FiTrash2 size="25"/>
+                        <FiTrash2 size="28"/>
                     </button>
 
                 </li>
@@ -91,7 +91,7 @@ export default function Profile(){
                     <p>R$ 120,00</p>
 
                     <button type="button">
-                        <FiTrash2 size="25"/>
+                        <FiTrash2 size="28"/>
                     </button>
 
                 </li>
