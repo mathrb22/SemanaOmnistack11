@@ -52,3 +52,25 @@ form input {
     /*filter: brightness(90%);*/
     background: #b61c36
 }
+
+
+.backlink svg {
+    margin-right: 8px;
+}
+
+.backlink {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500; 
+    transition: opacity 0.2s;
+    transition: text-decoration 0.2s;
+}
+
+.backlink:hover {
+    opacity: 0.86;
+    text-decoration: underline; 
+}
