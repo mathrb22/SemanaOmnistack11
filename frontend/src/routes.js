@@ -17,4 +17,4 @@ export default function Routes() {
         </BrowserRouter>
     );
 }
-//o react verifica se as rotas começam com path="/", então para a página inicial (login), utilizar a propriedade EXACT, que ter que ser exatamente a mesma URL
+//O react verifica se as rotas começam com path="/", então para a página inicial (login), utilizar a propriedade EXACT, que ter que ser exatamente a mesma URL

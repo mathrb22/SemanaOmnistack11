@@ -4,7 +4,7 @@
     height: 100vh; /*para que ocupe a largura toda do corpo*/
     margin: 0 auto; 
     
-    display: flex; /* PADRÃO: itens um do lado do outro*/
+    display: flex; /* PADRÃO: itens um do lado do outro;*/
     align-items: center; /* alinhar os itens VERTICALMENTE AO CENTRO */
     justify-content: space-between; /* alinhar os itens HORIZONTALMENTE AO CENTRO */
 }

@@ -12,7 +12,7 @@ import './styles.css'; //usando o './' para referenciar um arquivo na mesma past
 import logoImg from '../../assets/logo.svg';
 import heroesImg from '../../assets/heroes.png';
 
-//não utilizar class na propriedade pois clas é uma palavra reservada do JavaScript
+//não utilizar class na propriedade pois class é uma palavra reservada do JavaScript
 export default function Logon(){
     return(
         <div className="logon-container">
