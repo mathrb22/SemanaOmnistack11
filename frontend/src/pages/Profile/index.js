@@ -49,7 +49,7 @@ export default function Profile(){
     
     function handleLogout(){
         localStorage.clear();
-
+        history.push('/');
     }
     
     
@@ -60,7 +60,7 @@ export default function Profile(){
                 <span>Bem vinda, {ongName} </span>
 
                 <Link className="button" to="/incidents/new"> Cadastrar novo caso</Link>
-                <button type="button">
+                <button onClick={handleLogout} type="button">
                     <FiLogOut size={24} color="#e02041"></FiLogOut>
                 </button>
             </header>
