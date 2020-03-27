@@ -30,6 +30,7 @@
 .new-incident-container .content section h1 {
     margin: 64px 0 32px;
     font-size: 32px;
+    color: #41414d;
 }
 
 .new-incident-container .content section p {
@@ -62,7 +63,7 @@
 .new-incident-container .content form .button-group .CancelButton {
     width: 240px;
     height: 60px;
-    background: rgb(36, 36, 36);
+    background: #41414d;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     color: #fff;
@@ -78,5 +79,5 @@
 }
 
 .new-incident-container .content form .button-group .CancelButton:hover {
-    background: rgb(65, 65, 65);
+    background: #54545e;
 }
