@@ -95,9 +95,11 @@ export default function Register() {
                         />
                         <input
                             placeholder="UF"
-                            style={{ width: 80 }} 
+                            style={{ width: 80}} 
                             value={uf}
                             required
+                            maxlength="2"
+                            // onblur="this.value=this.value.toUpperCase()"
                             onChange={e => setUf(e.target.value)}
                         />
                     </div>

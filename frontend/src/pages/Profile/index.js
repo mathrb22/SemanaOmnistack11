@@ -29,14 +29,18 @@ export default function Profile(){
 
     async function handleDeleteIncident(id) {
         try{
-            await api.delete(`incidents/${id}`, {
-                headers: {
-                    Authorization: ongId,
-                }
-            });
-
-            setIncidents(incidents.filter(incident => incident.id !== id)) //selecionando os incidents que eu já tenho e filtrar
-            //Para cada um dos incidents, manter apenas os incidents em que seu id seja diferente do id que foi deletado;
+            if (window.confirm("Tem certeza que deseja deletar o caso?")) {
+                await api.delete(`incidents/${id}`, {
+                    headers: {
+                        Authorization: ongId,
+                    }
+                });
+                setIncidents(incidents.filter(incident => incident.id !== id)) //selecionando os incidents que eu já tenho e filtrar
+                //Para cada um dos incidents, manter apenas os incidents em que seu id seja diferente do id que foi deletado;
+            } 
+            else {
+                
+            }
         } catch(err){
             alert('Erro ao deletar caso, tente novamente.');
         }
@@ -60,7 +64,7 @@ export default function Profile(){
                 <span>Bem vinda, {ongName} </span>
 
                 <Link className="button" to="/incidents/new"> Cadastrar novo caso</Link>
-                <button onClick={handleLogout} type="button">
+                <button onClick={handleLogout} type="button" title="Fazer Logout">
                     <FiLogOut size={24} color="#e02041"></FiLogOut>
                 </button>
             </header>
