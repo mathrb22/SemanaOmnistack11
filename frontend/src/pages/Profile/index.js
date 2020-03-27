@@ -46,7 +46,7 @@ export default function Profile(){
         }
     }
     //Para que após deletar um caso, ele seja excluído da interface, existem duas formas:
-    //1- regarregar os dados da api (lista completa atualizada);
+    //1- recarregar os dados da api (lista completa atualizada);
     //2- realizar uma varredura no array de incidents, buscar aquele com o id deletado, e remover o elemento da página 
 
     //No React, quando realizar uma repetição, neste caso o map(), o primeiro elemento a ser carregado deve possuir uma propriedade KEY, para que seja identificado 
