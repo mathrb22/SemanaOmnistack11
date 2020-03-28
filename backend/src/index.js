@@ -2,12 +2,14 @@
 const express = require('express'); //importando o módulo express para a variável express;
 const cors = require('cors');
 const routes = require('./routes');
+const { errors } = require('celebrate'); 
 
 const app = express();
 
 app.use(cors());
 app.use(express.json()); //para entender os códigos de pacotes JSON, convertendo-os em objetos JavaScript
 app.use(routes);
+app.use(errors());
 
 // ROTA / RECURSO
 
