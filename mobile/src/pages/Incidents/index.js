@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {useNavigation} from '@react-navigation/native';
-import { View, FlatList, Image, Text, TouchableOpacity} from 'react-native';
+import { View, FlatList, Image, Text, TouchableOpacity, ScrollView} from 'react-native';
 //Para Listas de items no React Native em que precisam de um scroll, utilizar ao invés de uma View, uma FlatList
 //Componente button já vem com estilização padrão do sistema operacional;
 //TouchableOpacity: torna qualquer coisa clicável e ao clicar sua opacidade será reduzida;
@@ -57,9 +57,11 @@ export default function Incidents(){
                 </Text>
             </View>
 
+            {/* <ScrollView showsVerticalScrollIndicator={false}> */}
+
             <Text style={styles.title}>Bem-vindo!</Text>
             <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
-
+        
             <FlatList 
                 style={styles.incidentList} 
                 data={incidents}
@@ -93,6 +95,9 @@ export default function Incidents(){
                     </View>
                 )} //função que será responsável por renderizar cada item da lista; Essa função retornará um JSX, por isso utiliza-se ()
             />
+
+            {/* </ScrollView> */}
+
         </View>
     );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigation, useRoute } from '@react-navigation/native';
 import * as MailComposer from 'expo-mail-composer';
-import { View, Text, Image, TouchableOpacity, Linking} from 'react-native';
+import { View, Text, Image, TouchableOpacity, Linking, ScrollView} from 'react-native';
 import { Feather, FontAwesome5 } from '@expo/vector-icons';
 import logoImg from '../../assets/logo.png';
 import whatsapp from '../../assets/WhatsApp_Logo_8.png'
@@ -40,7 +40,7 @@ export default function Detail(){
                     <Feather name="arrow-left" size={45} color="#E02041"/>
                 </TouchableOpacity>
             </View>
-
+            <ScrollView showsVerticalScrollIndicator={false}>
             <View style={styles.incident}>
                 <Text style={[styles.incidentProperty, { marginTop: 0 }]}>ONG:</Text>
                 <Text style={styles.incidentValue}>{incident.name} ({incident.city} - {incident.uf})</Text>
@@ -70,6 +70,7 @@ export default function Detail(){
                     </TouchableOpacity>
                 </View>
             </View>
+            </ScrollView>
         </View>
     );
 }

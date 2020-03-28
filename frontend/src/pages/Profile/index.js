@@ -69,25 +69,35 @@ export default function Profile(){
                 </button>
             </header>
 
-            <h1>Casos cadastrados</h1>
+            {incidents.length > 0 ? <h1>Casos cadastrados:</h1> : null }
         
             <ul>
-                {incidents.map(incident => (
-                    <li key={incident.id} > 
+                {incidents.length > 0 ? ( incidents.map((incident) => (
+                    <li key={incident.id}>
                         <strong>CASO:</strong>
                         <p>{incident.title}</p>
-    
+
                         <strong>DESCRIÇÃO:</strong>
                         <p>{incident.description}</p>
-    
+
                         <strong>VALOR:</strong>
-                        <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(incident.value)}</p> 
-    
-                        <button onClick={() => handleDeleteIncident(incident.id)} type="button">
-                            <FiTrash2 size="28"/>
+                        <p>
+                        {Intl.NumberFormat('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL',
+                        }).format(incident.value)}
+                        </p>
+
+                        <button
+                        onClick={() => handleDeleteIncident(incident.id)}
+                        type="button"
+                        title="Deletar caso"
+                        >
+                        <FiTrash2 size={20} />
                         </button>
                     </li>
-                ))}
+                    ))) : ( <h1>Nenhum caso cadastrado</h1> )
+                }
             </ul>
         </div>
     );

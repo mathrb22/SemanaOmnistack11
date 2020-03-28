@@ -12,6 +12,7 @@ export default StyleSheet.create({
         flexDirection: 'row', //ao contrário do web, o padrão é ROW
         justifyContent: 'space-between',
         alignItems: 'center',
+        marginBottom: 20,
     },
 
     headerText: {
@@ -25,14 +26,14 @@ export default StyleSheet.create({
 
     title: {
         fontSize: 30,
-        marginBottom: 14,
-        marginTop: 16,
+        marginBottom: 10,
+        marginTop: 10,
         color: '#13131a',
         fontWeight: 'bold',
     },
 
     description: {
-        fontSize: 18,
+        fontSize: 16,
         lineHeight: 20,
         color: '#737380'
     },

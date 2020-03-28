@@ -12,6 +12,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
+        marginBottom: 20,
     },
 
     incidentList: {
@@ -37,6 +38,7 @@ export default StyleSheet.create({
         marginTop: 8,
         fontSize: 16,
         color: '#737380',
+        
     },
 
     contactBox: {
