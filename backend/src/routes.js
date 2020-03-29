@@ -29,7 +29,7 @@ routes.post('/ongs', celebrate({
         //validações dos campos da ong:
         name: Joi.string().required(),
         email: Joi.string().required().email(),
-        whatsapp: Joi.number().required().min(10).max(11),
+        whatsapp: Joi.string().required().min(10).max(11),
         city: Joi.string().required(),
         uf: Joi.string().required().length(2),
 

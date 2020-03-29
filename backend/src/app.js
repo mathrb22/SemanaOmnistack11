@@ -41,5 +41,5 @@ app.use(errors());
  */
 
 
-app.listen(3333) //porta para acessar a aplicação
-//Cannot GET /  -> não foi criado nenhuma rota para a nossa aplicação
+module.exports = app;
+
