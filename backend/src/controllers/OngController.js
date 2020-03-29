@@ -1,4 +1,4 @@
-const crypto = require('crypto'); //pacote do node, que serve para criptografia. Será utilizado o método de geração de string aleatório para a criação dos ids das ONGS
+const generateUniqueId = require ('../utils/generateUniqueId');
 
 const connection = require('../database/connection');
 
@@ -12,7 +12,7 @@ module.exports = {
 
     async create(request, response){
         const {name, email, whatsapp, city, uf} = request.body // ou de forma estruturada:  const data = request.body;
-        const id = crypto.randomBytes(4).toString('HEX'); //criação de um texto aleatório de 4 bytes e conversão para uma string no formato Hexadecimal
+        const id = generateUniqueId(); //criação de um texto aleatório de 4 bytes e conversão para uma string no formato Hexadecimal
     
         //inserção dos dados na tabela 'ongs':
         await connection('ongs').insert({
