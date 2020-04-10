@@ -39,7 +39,7 @@
 
 .profile-container header button:hover {
     border-color: rgb(196, 196, 196);
-    box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -62,10 +62,22 @@
     background: #fff;
     padding: 24px;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-image: initial;
+    transition: border-color 0.4s;
+}
 
+.profile-container ul li:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-image: initial;
 }
 
 .profile-container ul li button svg {

@@ -23,7 +23,7 @@ export default StyleSheet.create({
         padding: 24,
         borderRadius: 10,
         backgroundColor: '#fff',
-        marginTop: 32,
+        marginTop: 16,
         marginBottom: 16,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 1 },
@@ -33,7 +33,6 @@ export default StyleSheet.create({
     },
 
     incidentProperty: {
-        marginTop: 24,
         fontSize: 18,
         color: '#41414d',
         fontWeight: 'bold',
@@ -43,6 +42,7 @@ export default StyleSheet.create({
         marginTop: 8,
         fontSize: 16,
         color: '#737380',
+        marginBottom: 24,
         
     },
 
