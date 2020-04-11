@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <h1 align="center">
     <img alt="Be The Hero" title="#logo" src="./.github/logo.svg" width="250px" />
 </h1>
@@ -7,7 +9,7 @@
 </h2>
 
 <div align="center">
-  <img src="./.github/intro_preview.jpg" width="700" alt="imagem mockup">
+  <img src="./.github/intro_preview(md).jpg" width="100%" alt="imagem mockup">
 </div>
 
 <h3 align="center">
@@ -41,21 +43,21 @@ O **objetivo** do projeto é de conectar pessoas que desejam fazer contribuiçõ
 Este sistema possui a **interface web**, com a parte administrativa exclusiva para as ONGs. Estas tem a possibilidade de se cadastrar, fazer login, cadastrar e deletar casos.
 
 <div align="center">
-  <img src="./.github/profile_desktop.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/pag_profile_mac(md2).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
 Existe também o **aplicativo para dispositivos móveis** (Android e iOS), desenvolvido em **React Native**, contendo somente a seção dos heróis. Na página inicial é possível visualizar uma lista completa com todos os casos cadastrados pelas ONGs no banco de dados.
 
 <div align="center">
-  <img src="./.github/mobile_app.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/mobile_app(md).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
 Além disso, os usuários que acessarem o aplicativo, podem ver mais **detalhes** de um caso específico, como o nome da ONG, cidade, estado e descrição. Caso desejem contribuir com alguma quantia, podem entrar em contato por **e-mail** ou **Whatsapp**, diretamente pelo app.
 
 <div align="center">
-  <img src="./.github/be_the_hero_api.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/be_the_hero_api(md).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
@@ -84,7 +86,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_login.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/pag_login(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de Login</figcaption>
 </div>
 </figure>
@@ -92,7 +94,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_cadastro.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/pag_cadastro(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de cadastro de ONGs</figcaption>
 </div>
 </figure>
@@ -100,7 +102,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_profile.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/pag_profile(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de perfil da ONG</figcaption>
 </div>
 </figure>
@@ -108,7 +110,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_cadastro_casos.jpg" width="100%" alt="imagem mockup">
+  <img src="./.github/pag_cadastro_casos(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de cadastro de novos casos</figcaption>
 </div>
 </figure>
@@ -200,34 +202,49 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 
 ## 📲 Contato
 
-Entre em contato comigo por email ou pelo meu LinkedIn:
-<div align="left" style="display:inline-block;">
+Entre em contato comigo por e-mail ou pelo meu LinkedIn:
+
+<div align="left" style="display: flex">
   <div>
-    <figure align="center">
-      <a title="mathribe2020@gmail.com" href="mailto:mathribe2020@gmail.com">
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-        width="58" height="58"
-        viewBox="0 0 48 32"
-        style=" fill:#000000;"><path fill="#e0e0e0" d="M5.5,40.5h37c1.933,0,3.5-1.567,3.5-3.5V11c0-1.933-1.567-3.5-3.5-3.5h-37C3.567,7.5,2,9.067,2,11v26C2,38.933,3.567,40.5,5.5,40.5z"></path><path fill="#d9d9d9" d="M26,40.5h16.5c1.933,0,3.5-1.567,3.5-3.5V11c0-1.933-1.567-3.5-3.5-3.5h-37C3.567,7.5,2,9.067,2,11L26,40.5z"></path><path fill="#eee" d="M6.745,40.5H42.5c1.933,0,3.5-1.567,3.5-3.5V11.5L6.745,40.5z"></path><path fill="#e0e0e0" d="M25.745,40.5H42.5c1.933,0,3.5-1.567,3.5-3.5V11.5L18.771,31.616L25.745,40.5z"></path><path fill="#ca3737" d="M42.5,9.5h-37C3.567,9.5,2,9.067,2,11v26c0,1.933,1.567,3.5,3.5,3.5H7V12h34v28.5h1.5c1.933,0,3.5-1.567,3.5-3.5V11C46,9.067,44.433,9.5,42.5,9.5z"></path><path fill="#f5f5f5" d="M42.5,7.5H24H5.5C3.567,7.5,2,9.036,2,11c0,1.206,1.518,2.258,1.518,2.258L24,27.756l20.482-14.497c0,0,1.518-1.053,1.518-2.258C46,9.036,44.433,7.5,42.5,7.5z"></path><path fill="#e84f4b" d="M43.246,7.582L24,21L4.754,7.582C3.18,7.919,2,9.297,2,11c0,1.206,1.518,2.258,1.518,2.258L24,27.756l20.482-14.497c0,0,1.518-1.053,1.518-2.258C46,9.297,44.82,7.919,43.246,7.582z"></path></svg>
+    <figure align="center" style="margin-right: 20px;">
+      <a href="mailto:mathribe2020@gmail.com" alt="Gmail" class="fa fa-envelope" 
+        style="padding: 10px;
+              font-size: 40px;
+              width: 70px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+              background: #dd4b39;
+              color: white;
+              ">
       </a>
-      <figcaption >Gmail</figcaption>
+      <figcaption><b>Gmail</b></figcaption>
     </figure>
   </div>
-  
+
+  &nbsp;
+
   <div>
     <figure align="center">
-      <a title="Matheus Ribeiro" href="https://www.linkedin.com/in/matheus-ribeiro-33496a11b/">
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-        width="58" height="58"
-        viewBox="0 0 48 32"
-        style=" fill:#000000;"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path></svg>
+      <a href="https://www.linkedin.com/in/matheus-ribeiro-33496a11b/" class="fa fa-linkedin"
+        style="padding: 10px;
+              font-size: 40px;
+              width: 70px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+              background: #007bb5;
+              color: white;
+              ">
       </a>
-      <figcaption>LinkedIn</figcaption>
+      <figcaption><b>LinkedIn</b></figcaption>
     </figure>
   </div>
 </div>
 
+
 ## 📝 Licença
+
 <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
 
 <!-- Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mais detalhes. -->
