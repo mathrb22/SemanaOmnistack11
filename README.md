@@ -252,9 +252,9 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
 <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
 
-<!-- Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mais detalhes. -->
+Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mais detalhes.
 ***
 
 <h5 align="center">
-  Made by <a href="https://github.com/mathrb22/">Matheus Ribeiro</a>
+  ©2020 - <a href="https://github.com/mathrb22/">Matheus Ribeiro</a>
 </h5>
