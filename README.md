@@ -23,14 +23,15 @@
   <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
 </h3>
 
-<h5 align="center">
+<h4 align="center">
   <a href="#📃-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#🚀-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#📟-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#🔧-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#💡-como-contribuir">Como contribuir</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#📲-contato">Contato</a>
-</h5>
+  <a href="#📲-contato">Contato</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#📝-licença">Licença</a>
+</h4>
 
 ---
 
