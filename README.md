@@ -256,5 +256,5 @@ Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mai
 ***
 
 <h5 align="center">
-  ©2020 - <a href="https://github.com/mathrb22/">Matheus Ribeiro</a>
+  &copy;2020 - <a href="https://github.com/mathrb22/">Matheus Ribeiro</a>
 </h5>
