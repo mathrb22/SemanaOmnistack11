@@ -204,7 +204,11 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 
 Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
-<div align="left" style="display: flex">
+**Gmail:** [mathribe2020@gmail.com](mailto:mathribe2020@gmail.com)
+
+**LinkedIn:** [Matheus Ribeiro](https://www.linkedin.com/in/matheus-ribeiro-33496a11b/)
+
+<!-- <div align="left" style="display: flex">
   <div>
     <figure align="center" style="margin-right: 20px;">
       <a href="mailto:mathribe2020@gmail.com" alt="Gmail" class="fa fa-envelope" 
@@ -240,7 +244,7 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
       <figcaption><b>LinkedIn</b></figcaption>
     </figure>
   </div>
-</div>
+</div> -->
 
 
 ## 📝 Licença
