@@ -11,7 +11,7 @@ import Routes from './src/routes';
 //Todos os elementos do React Native, possuem DISPLAY: "FLEX" por padrão. Não existe display block, inline-block, etc
 //Todos os valores que não são números devem ser escritos entre aspas simples ''
 export default function App() {
-  return (
-    <Routes/>
+  return ( <
+    Routes / >
   );
 }

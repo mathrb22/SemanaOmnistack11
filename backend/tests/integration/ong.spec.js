@@ -11,7 +11,7 @@ describe('ONG', () => {
     });
 
     //Depois de todos os testes
-    afterAll( async () => {
+    afterAll(async () => {
         await connection.destroy(); //desfaz a conexão do teste com o banco de dados;
     });
 
@@ -28,5 +28,5 @@ describe('ONG', () => {
 
         expect(response.body).toHaveProperty('id');
         expect(response.body.id).toHaveLength(8);
-    }); 
+    });
 });

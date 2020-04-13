@@ -2,7 +2,9 @@
 const express = require('express'); //importando o módulo express para a variável express;
 const cors = require('cors');
 const routes = require('./routes');
-const { errors } = require('celebrate'); 
+const {
+  errors
+} = require('celebrate');
 
 const app = express();
 
@@ -32,7 +34,7 @@ app.use(errors());
         - http://localhost:3333/users/1
 
    -> REQUEST BODY: corpo da requisição, utilizado para criar ou alterar recursos. Sempre será enviado os dados ao back-end pelo método POST, por meio de pacotes JSON
- */ 
+ */
 
 /** TIPOS DE BANCOS DE DADOS:
  *  -> SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server; (mais utilizado atualmente, melhor estruturado)
@@ -42,4 +44,3 @@ app.use(errors());
 
 
 module.exports = app;
-

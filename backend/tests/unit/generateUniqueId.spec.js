@@ -1,5 +1,5 @@
 //Teste unitário
-const generateUniqueId = require ('./../../src/utils/generateUniqueId')
+const generateUniqueId = require('./../../src/utils/generateUniqueId')
 
 //Definindo categoria do teste:
 describe('Generate Unique ID', () => {
