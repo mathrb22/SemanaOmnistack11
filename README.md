@@ -17,6 +17,12 @@
     <img alt="Made by mathrb22" src="https://img.shields.io/badge/made%20by-mathrb22-yellow">
   </a>
   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/mathrb22/SemanaOmnistack11">
+  <a href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.16.1">
+    <img alt="Nodejs Latest Version" src="https://img.shields.io/badge/node.js@lts-12.16.1-informational?logo=Node.JS">
+  </a>
+  <a aria-label="React Version" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020">
+    <img src="https://img.shields.io/badge/react-16.13.1-informational?logo=react"></img>
+  </a>
   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/mathrb22/SemanaOmnistack11">
   <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/SemanaOmnistack11">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mathrb22/SemanaOmnistack11">
@@ -220,7 +226,7 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
               background: #dd4b39;
               color: white;
               ">
-      </a>
+      </link>
       <figcaption><b>Gmail</b></figcaption>
     </figure>
   </div>
@@ -239,7 +245,7 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
               background: #007bb5;
               color: white;
               ">
-      </a>
+      </link>
       <figcaption><b>LinkedIn</b></figcaption>
     </figure>
   </div>
