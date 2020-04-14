@@ -24,9 +24,13 @@
     <img src="https://img.shields.io/badge/react-16.13.1-informational?logo=react"></img>
   </a>
   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/mathrb22/SemanaOmnistack11">
-  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/SemanaOmnistack11">
+  <a href="https://github.com/mathrb22/SemanaOmnistack11/commits/master">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/SemanaOmnistack11">
+  </a>
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mathrb22/SemanaOmnistack11">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
+  <a href="https://github.com/mathrb22/SemanaOmnistack11/blob/master/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
+  </a>
 </h3>
 
  [**Sobre**](#📃-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
