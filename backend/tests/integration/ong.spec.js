@@ -6,7 +6,7 @@ describe('ONG', () => {
 
     //Antes de cada um dos testes
     beforeEach(async () => {
-        await connection.migrate.rollBack(); //desfazendo as migrations dos testes anteriores (resetando o banco de dados)
+        await connection.migrate.rollback(); //desfazendo as migrations dos testes anteriores (resetando o banco de dados)
         await connection.migrate.latest(); //executar as migrations
     });
 
