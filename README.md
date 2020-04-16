@@ -70,7 +70,7 @@ Além disso, os usuários que acessarem o aplicativo, podem ver mais **detalhes*
 </div>
 <br/>
 
-> Este projeto foi desenvolvido para fins de estudo e aprendizado próprio, com foco na linguagem JavaScript e as demais ferramentas e tecnologias da OmniStack. Portanto, será atualizado de tempos em tempos. 
+> Este projeto foi desenvolvido para fins de estudo e aprendizado próprio, com foco na linguagem JavaScript e as demais ferramentas e tecnologias da OmniStack. Portanto, será atualizado constantemente. 
 
 ## 🚀 Tecnologias utilizadas
 
@@ -128,7 +128,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 ## 🔧 Instalação e execução
 
 Para você poder instalar e executar esta aplicação, terá que ter instalado em sua máquina o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/).
-Em seguida, no terminal execute os seguintes comandos:  
+Em seguida, no terminal execute os seguintes comandos segundo as instruções:  
 ### Backend
 
 1. Clone este repositório:
@@ -151,6 +151,18 @@ Em seguida, no terminal execute os seguintes comandos:
     ```bash
     $ npm start
     ```
+6. Para importar a Workplace do **Insomnia** com todas as rotas e requests da aplicação, abra o aplicativo Insomnia. No menu principal, acesse as preferências, selecione **DATA**, e "Import Data", como mostram as imagens a seguir:
+
+    <div align="center">
+      <img src="./.github/insomnia_import.jpg" width="90%" alt="imagem mockup">
+      <figcaption>Importando a Workplace do Insomnia</figcaption>
+    </div>
+    <br/>
+    <div align="center">
+      <img src="./.github/insomnia_import_file.jpg" width="90%" alt="imagem mockup">
+      <figcaption>Selecione o arquivo <b>BTH_Insomnia_Workplace.json</b></figcaption>
+    </div>
+
 ---
 ### Frontend (Web)
 
@@ -179,13 +191,19 @@ Em seguida, no terminal execute os seguintes comandos:
     ```bash
     $ npm install
     ```
+    >Verifique se o Expo foi instalado normalmente, executando ``expo -h``. Caso retorne algum erro:
+    * Instale o Expo na pasta raiz de forma GLOBAL
+       ```bash
+       $ npm install -g expo-cli
+       ```
 3. Execute a aplicação mobile:
     ```bash
     $ npm start
     ```
 - Para executar a aplicação mobile, você pode instalar o aplicativo **Expo** disponível na [**Google Play**](https://play.google.com/store/apps/details?id=host.exp.exponent) e [**App Store**](https://apps.apple.com/br/app/expo-client/id982107779). Este aplicativo permite que você visualize a API em seu próprio celular. 
-- Primeiramente, verifique se o seu computador está conectado à mesma rede que o dispositivo móvel.
-- Ao executar a API com ``npm start``, aguarde o carregamento dos scripts. Será aberto uma interface do **Expo** em seu navegador com o título: _**"Be The Hero on Expo Developer Tools"**_. Aqui é possível visualizar o status de Metro Builder, configurações de conexão e outras opções como:
+- Antes de executar: vá até o arquivo **``api.js``** acessando as pastas ``mobile / src / services / api.js``, adicione seu endereço IP e salve o arquivo;
+- Agora, verifique se o seu computador está conectado à mesma rede que o dispositivo móvel.
+- Ao executar a API com **``npm start``**, aguarde o carregamento dos scripts. Será aberto uma interface do **Expo** em seu navegador com o título: _**"Be The Hero on Expo Developer Tools"**_. Aqui é possível visualizar o status de Metro Builder, configurações de conexão e outras opções como:
   
   >* Run on Android device/emulator
   >* Run on iOS simulator
@@ -216,45 +234,6 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 **Gmail:** [mathribe2020@gmail.com](mailto:mathribe2020@gmail.com)
 
 **LinkedIn:** [Matheus Ribeiro](https://www.linkedin.com/in/matheus-ribeiro-33496a11b/)
-
-<!-- <div align="left" style="display: flex">
-  <div>
-    <figure align="center" style="margin-right: 20px;">
-      <a href="mailto:mathribe2020@gmail.com" alt="Gmail" class="fa fa-envelope" 
-        style="padding: 10px;
-              font-size: 40px;
-              width: 70px;
-              text-align: center;
-              text-decoration: none;
-              margin: 5px 2px;
-              background: #dd4b39;
-              color: white;
-              ">
-      </link>
-      <figcaption><b>Gmail</b></figcaption>
-    </figure>
-  </div>
-
-  &nbsp;
-
-  <div>
-    <figure align="center">
-      <a href="https://www.linkedin.com/in/matheus-ribeiro-33496a11b/" class="fa fa-linkedin"
-        style="padding: 10px;
-              font-size: 40px;
-              width: 70px;
-              text-align: center;
-              text-decoration: none;
-              margin: 5px 2px;
-              background: #007bb5;
-              color: white;
-              ">
-      </link>
-      <figcaption><b>LinkedIn</b></figcaption>
-    </figure>
-  </div>
-</div> -->
-
 
 ## 📝 Licença
 
