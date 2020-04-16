@@ -33,13 +33,13 @@
   </a>
 </h3>
 
- [**Sobre**](#📃-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Tecnologias utilizadas**](#🚀-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Layout**](#📟-layout) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Instalação e execução**](#🔧-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Como contribuir**](#💡-como-contribuir) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Contato**](#📲-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
- [**Licença**](#📝-licença)
+ [**Sobre**](#-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Tecnologias utilizadas**](#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Layout**](#-layout) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Como contribuir**](#-como-contribuir) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Contato**](#-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+ [**Licença**](#-licença)
 
 ---
 
@@ -213,6 +213,16 @@ Em seguida, no terminal execute os seguintes comandos segundo as instruções:
 
 - Após o **Expo** estar instalado em seu celular, abra-o, escaneie o QR Code e a API será executada.
 - Caso queira executar a API pelo computador, instale algum **emulador Android/iOS**.
+
+---
+### Executando testes
+
+Para a realização dos testes da aplicação, foi utilizado o pacote [**Celebrate**](https://github.com/arb/celebrate), que realiza uma integração do Express com a [**Joi**](https://github.com/hapijs/joi), a mais poderosa biblioteca de validação de dados do JavaScript.
+
+A principal ferramenta utilizada foi o [**Jest**](https://jestjs.io/) - um **framework de testes** do JavaScript. Também foram utilizados o [**Cross-Env**](https://www.npmjs.com/package/cross-env) e [**SuperTest**](https://www.npmjs.com/package/supertest).
+
+Você pode executar o teste da aplicação digitando no terminal: **``npm test``**
+
 
 ## 💡 Como contribuir
 
