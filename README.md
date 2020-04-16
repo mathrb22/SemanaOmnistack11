@@ -154,12 +154,12 @@ Em seguida, no terminal execute os seguintes comandos segundo as instruções:
 6. Para importar a Workplace do **Insomnia** com todas as rotas e requests da aplicação, abra o aplicativo Insomnia. No menu principal, acesse as preferências, selecione **DATA**, e "Import Data", como mostram as imagens a seguir:
 
     <div align="center">
-      <img src="./.github/insomnia_import.jpg" width="90%" alt="imagem mockup">
+      <img src="./.github/insomnia_import.jpg" width="100%" alt="imagem mockup">
       <figcaption>Importando a Workplace do Insomnia</figcaption>
     </div>
     <br/>
     <div align="center">
-      <img src="./.github/insomnia_import_file.jpg" width="90%" alt="imagem mockup">
+      <img src="./.github/insomnia_import_file.jpg" width="100%" alt="imagem mockup">
       <figcaption>Selecione o arquivo <b>BTH_Insomnia_Workplace.json</b></figcaption>
     </div>
 
