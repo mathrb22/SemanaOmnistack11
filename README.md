@@ -247,7 +247,9 @@ Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
 ## 📝 Licença
 
-<img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
+<a href="https://github.com/mathrb22/SemanaOmnistack11/blob/master/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
+</a>
 
 Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mais detalhes.
 ***
