@@ -88,8 +88,8 @@ Outros recursos utilizados:
 - [**SQLite3**](https://www.sqlite.org/version3.html): uma biblioteca open-source desenvolvida em linguagem C, que funciona como um gerenciador de bancos de dados relacionais dentro da própria aplicação, sem a necessidade de utilizar um sistema separado.
 
 ## 📟 Layout
-O layout da aplicação **Be The Hero** foi desenvolvido pela equipe da [Rocketseat](https://github.com/Rocketseat/) através da ferramenta online [Figma](https://www.figma.com), um software de prototipação voltado para **UI Design (design de interface)**.
-Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1).
+O layout da aplicação **Be The Hero** foi desenvolvido pela equipe da [**Rocketseat**](https://github.com/Rocketseat/) através da ferramenta online [**Figma**](https://www.figma.com), um software de prototipação voltado para **UI Design (design de interface)**.
+Você pode acessar o layout através deste link: [**Be The Hero - OmniStack 11**](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
 > **OBS:** O layout deste repositório contém diversas modificações feitas por mim mesmo durante o desenvolvimento da interface gráfica.
 
@@ -127,7 +127,7 @@ Você pode acessar o layout através deste link: [Be The Hero - OmniStack 11](ht
 
 ## 🔧 Instalação e execução
 
-Para você poder instalar e executar esta aplicação, terá que ter instalado em sua máquina o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/).
+Para você poder instalar e executar esta aplicação, terá que ter instalado em sua máquina o [**Git**](https://git-scm.com/) e o [**Node.js**](https://nodejs.org/en/).
 Em seguida, no terminal execute os seguintes comandos segundo as instruções:  
 ### Backend
 
@@ -229,10 +229,10 @@ Você pode executar o teste da aplicação digitando no terminal: **``npm test``
 - Faça um **_fork_** desse repositório;
 - Crie um **branch** para a sua feature: `git checkout -b minha-feature`;
 - Faça um **commit** com suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça um **push** para a sua branch: `git push origin minha-feature`;
+- Faça um **push** para o seu branch: `git push origin minha-feature`;
 - Faça um **pull request** com sua feature, e em seguida realize um **merge**;
 
-> Após o merge de seu **pull request** ser feito, você pode deletar a sua branch.
+> Após o merge de seu **pull request** ser feito, você pode deletar seu branch.
 
 Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
 
