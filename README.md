@@ -45,7 +45,7 @@
 
 ## 📃 Sobre
 
-**Be The Hero** é um projeto desenvolvido durante a **11ª Semana OmniStack**, um evento online com duração de uma semana, onde cada dia foi desenvolvida uma etapa da aplicação, desde o back-end (banco de dados, rotas), até o front-end (interface do usuário) e mobile (aplicativo para celular).
+**Be The Hero** é um projeto desenvolvido durante a **11ª Semana OmniStack**, um evento online com duração de uma semana, onde cada dia foi desenvolvida uma etapa da aplicação, desde o back-end, front-end (interface do usuário), até a API mobile (aplicativo para celular).
 
 O **objetivo** do projeto é de conectar pessoas que desejam fazer contribuições monetárias a **ONGs** (Organizações não governamentais) que precisam de ajuda.
 
