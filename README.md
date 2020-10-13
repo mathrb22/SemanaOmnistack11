@@ -241,9 +241,8 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 
 Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
-**Gmail:** [mathribe2020@gmail.com](mailto:mathribe2020@gmail.com)
-
-**LinkedIn:** [Matheus Ribeiro](https://www.linkedin.com/in/matheus-ribeiro-33496a11b/)
+  <a href="mailto:mathribe2020@gmail.com"><img src="https://img.shields.io/badge/-Gmail-E94134?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathribe2020@gmail.com" alt="Gmail"/></a>
+  <a href="https://www.linkedin.com/in/matheus-ribeiro-dev/"><img src="https://img.shields.io/badge/-LinkedIn-0270AD?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-ribeiro-dev/" alt="Linkedin"/></a>
 
 ## 📝 Licença
 
