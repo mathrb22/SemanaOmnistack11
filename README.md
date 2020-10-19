@@ -9,7 +9,7 @@
 </h2>
 
 <div align="center">
-  <img src="./.github/intro_preview(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/intro_preview(md).jpg" width="100%" alt="imagem mockup">
 </div>
 
 <h3 align="center">
@@ -52,21 +52,21 @@ O **objetivo** do projeto é de conectar pessoas que desejam fazer contribuiçõ
 Este sistema possui a **interface web**, com a parte administrativa exclusiva para as ONGs. Estas tem a possibilidade de se cadastrar, fazer login, cadastrar e deletar casos.
 
 <div align="center">
-  <img src="./.github/pag_profile_mac(md2).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/pag_profile_mac(md2).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
 Existe também o **aplicativo para dispositivos móveis** (Android e iOS), desenvolvido em **React Native**, contendo somente a seção dos heróis. Na página inicial é possível visualizar uma lista completa com todos os casos cadastrados pelas ONGs no banco de dados.
 
 <div align="center">
-  <img src="./.github/mobile_app(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/mobile_app(md).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
 Além disso, os usuários que acessarem o aplicativo, podem ver mais **detalhes** de um caso específico, como o nome da ONG, cidade, estado e descrição. Caso desejem contribuir com alguma quantia, podem entrar em contato por **e-mail** ou **Whatsapp**, diretamente pelo app.
 
 <div align="center">
-  <img src="./.github/be_the_hero_api(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/be_the_hero_api(md).jpg" width="100%" alt="imagem mockup">
 </div>
 <br/>
 
@@ -95,7 +95,7 @@ Você pode acessar o layout através deste link: [**Be The Hero - OmniStack 11**
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_login(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/pag_login(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de Login</figcaption>
 </div>
 </figure>
@@ -103,7 +103,7 @@ Você pode acessar o layout através deste link: [**Be The Hero - OmniStack 11**
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_cadastro(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/pag_cadastro(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de cadastro de ONGs</figcaption>
 </div>
 </figure>
@@ -111,7 +111,7 @@ Você pode acessar o layout através deste link: [**Be The Hero - OmniStack 11**
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_profile(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/pag_profile(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de perfil da ONG</figcaption>
 </div>
 </figure>
@@ -119,7 +119,7 @@ Você pode acessar o layout através deste link: [**Be The Hero - OmniStack 11**
 
 <figure>
 <div align="center">
-  <img src="./.github/pag_cadastro_casos(md).jpg" width="100%" alt="imagem mockup">
+  <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/pag_cadastro_casos(md).jpg" width="100%" alt="imagem mockup">
   <figcaption>Página de cadastro de novos casos</figcaption>
 </div>
 </figure>
@@ -154,12 +154,12 @@ Em seguida, no terminal execute os seguintes comandos segundo as instruções:
 6. Para importar a Workplace do **Insomnia** com todas as rotas e requests da aplicação, abra o aplicativo Insomnia. No menu principal, acesse as preferências, selecione **DATA**, e "Import Data", como mostram as imagens a seguir:
 
     <div align="center">
-      <img src="./.github/insomnia_import.jpg" width="100%" alt="imagem mockup">
+      <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/insomnia_import.jpg" width="100%" alt="imagem mockup">
       <figcaption>Importando a Workplace do Insomnia</figcaption>
     </div>
     <br/>
     <div align="center">
-      <img src="./.github/insomnia_import_file.jpg" width="100%" alt="imagem mockup">
+      <img src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/insomnia_import_file.jpg" width="100%" alt="imagem mockup">
       <figcaption>Selecione o arquivo <b>BTH_Insomnia_Workplace.json</b></figcaption>
     </div>
 
