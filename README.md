@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <h1 align="center">
-    <img alt="Be The Hero" title="#logo" src="./.github/logo.svg" width="250px" />
+    <img alt="Be The Hero" title="#logo" src="https://github.com/mathrb22/SemanaOmnistack11/blob/master/.github/logo.svg" width="250px" />
 </h1>
 
 <h2 align="center">
