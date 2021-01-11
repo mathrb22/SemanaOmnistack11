@@ -28,6 +28,9 @@
     <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/SemanaOmnistack11">
   </a>
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mathrb22/SemanaOmnistack11">
+  <a href="https://github.com/mathrb22/SemanaOmnistack11/pulls">
+      <img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+   </a>
   <a href="https://github.com/mathrb22/SemanaOmnistack11/blob/master/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/SemanaOmnistack11">
   </a>
@@ -133,7 +136,7 @@ Em seguida, no terminal execute os seguintes comandos segundo as instruções:
 
 1. Clone este repositório:
     ```bash
-    $ git clone https://github.com/mathrb22/SemanaOmnistack11
+    $ git clone https://github.com/mathrb22/SemanaOmnistack11.git
     ```
 2. Vá até a pasta backend do repositório:
     ```bash
@@ -230,19 +233,16 @@ Você pode executar o teste da aplicação digitando no terminal: **``npm test``
 - Crie um **branch** para a sua feature: `git checkout -b minha-feature`;
 - Faça um **commit** com suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça um **push** para o seu branch: `git push origin minha-feature`;
-- Faça um **pull request** com sua feature, e em seguida realize um **merge**;
-
-> Após o merge de seu **pull request** ser feito, você pode deletar seu branch.
+- Faça um **pull request** com sua feature;
 
 Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
-
 
 ## 📲 Contato
 
 Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
-  <a href="mailto:mathribe2020@gmail.com"><img src="https://img.shields.io/badge/-Gmail-E94134?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathribe2020@gmail.com" alt="Gmail"/></a>
-  <a href="https://www.linkedin.com/in/matheus-ribeiro-dev/"><img src="https://img.shields.io/badge/-LinkedIn-0270AD?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-ribeiro-dev/" alt="Linkedin"/></a>
+<a href="mailto:mathribe2020@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/matheus-ribeiro-dev/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 ## 📝 Licença
 
